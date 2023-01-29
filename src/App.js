@@ -1,8 +1,12 @@
+import Simpsons from "./components/Simpsons/Simpsons";
+import Characters from "./components/Characters/Characters";
 
 const App = ()=> {
   return (
     <div>
-        Homework
+        <Simpsons/>
+    <hr/>
+        <Characters/>
     </div>
   );
 }
