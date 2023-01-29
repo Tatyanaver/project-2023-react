@@ -1,10 +1,11 @@
 import React from 'react';
+import css from './Simpson.module.css';
 
 
 const Simpson = ({simpson}) => {
     const {id, name, surname, image, firstPet, secondPet} = simpson
     return (
-        <div>
+        <div className={css.main}>
             <div>id) {id}</div>
             <div>name - {name}</div>
             <div>surname - {surname}</div>
